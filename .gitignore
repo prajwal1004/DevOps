@@ -1,0 +1,169 @@
+# Vagrant specific
+.vagrant/
+*.box
+Vagrantfile.local
+.vagrant.d/
+vagrant_*/
+
+# Virtual Machine
+*.vmdk
+*.vdi
+*.vhd
+*.ova
+*.ovf
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.python-version
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# AWS
+.aws/
+aws.config
+credentials
+*.pem
+*.ppk
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+*.tfvars
+.terraformrc
+terraform.rc
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Web Application
+node_modules/
+bower_components/
+dist/
+tmp/
+out-tsc/
+.sass-cache/
+connect.lock
+coverage/
+libpeerconnection.log
+npm-debug.log
+yarn-error.log
+.npm
+.yarn-integrity
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+*.pyo
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Docker
+.docker/
+docker-compose.override.yml
+*.env
+.dockerignore
+
+# Kubernetes
+kubeconfig
+*.kubeconfig
+.kube/
+
+# Ansible
+*.retry
+ansible/*.retry
+
+# Security
+*.pem
+*.key
+*.crt
+*.csr
+*.srl
+*.p12
+*.pfx
+
+# Documentation
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# Test files
+.coverage
+.tox/
+.pytest_cache/
+htmlcov/
+.hypothesis/
+
+# Misc
+*.bak
+*.swp
+*.tmp
+*.temp
+.history
+.cache
