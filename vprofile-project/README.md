@@ -24,10 +24,10 @@ sql dump file:
 - db_backup.sql file is a mysql dump file.we have to import this dump to mysql db server
 - > mysql -u <user_name> -p accounts < db_backup.sql
 
-# TODO:
+# TODO
 # VM Setup
 - Test if all the services are able to conect,
-```ping app01 -c 4
+    ```ping app01 -c 4
 - Check if all the vms are running
 
 # SQL SETUP
@@ -36,3 +36,6 @@ sql dump file:
 - update all the packages ```dnf update -y
 - set the epel release repo ```dnf install epel-release -y
 - install mariadb package ```dnf install mariadb-server -y
+- start the service
+    ```systemctl start mariadb
+    ```systemctl enable mariadb
